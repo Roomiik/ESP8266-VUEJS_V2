@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import axios from 'axios'
 
-const API_URL = 'https://esp8266-serve-v2.onrender.com' // адреса вашого сервера
+const API_URL = 'https://esp8266-serve-v2.onrender.com/api' // адреса вашого сервера
 
 export const useDeviceStore = defineStore('devices', () => {
   const devices = ref([])

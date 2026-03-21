@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useNotificationStore } from '@/stores/notificationStore'
 
 // const API_URL = 'https://esp8266-serve-v2.onrender.com/api' // адреса вашого сервера
-const API_URL = 'https://esp8266-serve-v2.onrender.com' // адреса вашого сервера
+const API_URL = 'https://esp8266-serve-v2.onrender.com/api' // адреса вашого сервера
 let LastFetch = 0;
 
 // function someAction() {

@@ -10,6 +10,9 @@
             </h1>
             <p class="text-gray-600 dark:text-gray-400 mt-1">Моніторинг та керування пристроями</p>
           </div>
+          <router-link to="/history" class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+  Історія
+</router-link>
           <div class="flex items-center gap-3">
             <NotificationBell />
             <ThemeToggle />

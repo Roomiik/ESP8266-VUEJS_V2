@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HistoryView from '@/views/HistoryView.vue'
+import SqlQueryView from '@/views/SqlQueryView.vue';
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/history',
     name: 'history',
     component: HistoryView
+  },
+  {
+    path: '/admin/sql',
+    name: 'sql-query',
+    component: SqlQueryView
   }
   // інші маршрути, якщо потрібні
 ]

@@ -50,7 +50,7 @@
 import { ref } from 'vue';
 import axios from 'axios';
 
-const API_URL = 'https://esp8266-vuejs-v2-1.onrender.com/api'; // змініть на ваш сервер
+const API_URL = 'https://esp8266-serve-v2.onrender.com/api'; // змініть на ваш сервер
 const secret = ref('');
 const sqlQuery = ref('SELECT * FROM sensors');
 const results = ref([]);

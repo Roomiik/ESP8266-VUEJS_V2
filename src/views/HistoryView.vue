@@ -38,7 +38,7 @@ const selectedSensor = ref('');
 const chartData = ref([]);
 const selectedSensorName = ref('');
 
-const API_URL = 'http://192.168.50.170:3000/api'; // замініть на вашу адресу
+const API_URL = 'https://esp8266-serve-v2.onrender.com/api'; // замініть на вашу адресу
 
 // Завантажуємо список датчиків
 onMounted(async () => {

@@ -13,6 +13,9 @@
           <router-link to="/history" class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
   Історія
 </router-link>
+          <router-link to="/admin/sql" class="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+  SQL Console
+</router-link>
           <div class="flex items-center gap-3">
             <NotificationBell />
             <ThemeToggle />

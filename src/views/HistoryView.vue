@@ -38,7 +38,7 @@ const selectedSensor = ref('');
 const chartData = ref([]);
 const selectedSensorName = ref('');
 
-const API_URL = 'https://esp8266-servev2-production.up.railway.app/api'; // замініть на вашу адресу
+const API_URL = 'https://esp8266-servev3-production.up.railway.app/api'; // замініть на вашу адресу
 
 // Завантажуємо список датчиків
 onMounted(async () => {

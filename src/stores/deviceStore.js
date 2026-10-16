@@ -115,7 +115,7 @@ export const useDeviceStore = defineStore('devices', () => {
 
   setInterval(() => {
     let LastTimeOut = secondsDifference(Date.now(), LastFetch);
-    if(LastTimeOut > 55) {
+    if(LastTimeOut > 182) {
       notificationStore.addNotification({
         message: `Втрата звязку зі сервером [Останій запит: ${LastTimeOut} сек. тому]`,
         type: 'error'
